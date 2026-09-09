@@ -139,6 +139,7 @@ export default function UnexpectedFlashback({ onContinue }) {
               <img
                 src={siteConfig.unexpected.silencePhoto}
                 alt="Silence photo"
+                style={{ objectPosition: 'center 45%' }}
                 className="w-full h-full object-cover"
               />
             </div>

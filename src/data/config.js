@@ -22,7 +22,7 @@ export const siteConfig = {
     subtextLine1: "Today is technically your day.",
     subtextLine2: "So I made you something.",
     startButtonText: "START",
-    introHeroPhoto: "/images/photo1.jpg"
+    introHeroPhoto: "/images/photo1.jpeg"
   },
 
   // ---------------------------------------------------------------------------
@@ -44,22 +44,25 @@ export const siteConfig = {
     subtext: "Here is the indisputable evidence on public record:",
     annoyingHabits: [
       {
-        title: "Chronological Fraud",
-        detail: "Saying 'I'll be ready in 5 minutes' while still lying in bed on TikTok.",
-        photo: "/images/photo2.jpg",
-        caption: "Snack theft probability: 100%"
+        title: "Pink Saree Protocol",
+        detail: "She sat on that sofa like a chief guest and waited for the photographer to notice her.",
+        photo: "/images/photo2.jpeg",
+        caption: "She served elegant energy in pink saree and ate the whole look up.",
+        objectPosition: "center"
       },
       {
-        title: "Decibel Decisive Victory",
-        detail: "Winning arguments purely by speaking at 300 words per minute until everyone surrenders.",
-        photo: "/images/photo3.jpg",
-        caption: "Peak chaos achieved here."
+        title: "OG Duo Origin Story",
+        detail: "The elder one was in full angry mode, the younger one thought it was a fashion show.",
+        photo: "/images/photo3.jpeg",
+        caption: "They had no idea they'd be taking the same pose 20 years later.",
+        objectPosition: "center"
       },
       {
-        title: "Unsolicited Reel Spam",
-        detail: "Sending 47 Instagram reels at 2:14 AM without a single word of context.",
-        photo: "/images/photo5.jpg",
-        caption: "Pretending to be normal for 5 seconds."
+        title: "The Full House Final Boss",
+        detail: "They tried to get one normal family selfie where everyone looks at the camera.",
+        photo: "/images/photo5.jpeg",
+        caption: "They got chaos, snacks on the table, and everyone half-cropped.",
+        objectPosition: "center"
       }
     ],
     nextButton: "BUT..."
@@ -75,17 +78,17 @@ export const siteConfig = {
     memories: [
       {
         id: "mem-1",
-        url: "/images/photo1.jpg",
-        title: "Golden Hour Chaos",
-        caption: "One of my favorite days.",
-        story: "We spent 20 minutes trying to take a cool photo, only to burst out laughing. Unfiltered core memory."
+        url: "/images/photo1.jpeg",
+        title: "Farewell Stage Fiasco",
+        caption: "She decided to do a full dramatic dance pose",
+        story: "She was the main character and the whole batch still remembers it."
       },
       {
         id: "mem-2",
-        url: "/images/photo4.jpg",
-        title: "Fairy Lights & Smiles",
-        caption: "She actually looks innocent here.",
-        story: "A rare moment of pure peace when we weren't actively fighting over food or directions."
+        url: "/images/photo4.jpeg",
+        title: "Sibling Hostage Situation",
+        caption: "She said it was a cute sibling photo, but he was not agreeing to it.",
+        story: "He was suffering with that fake smile, she was thriving. Classic big-sis energy."
       }
     ],
     nextButton: "AND THERE'S SOMETHING ELSE..."
@@ -98,37 +101,40 @@ export const siteConfig = {
     triggerText: "I almost forgot something.",
     buttonText: "WAIT... WHAT?",
     rapidMemories: [
-      { text: "remember this?", image: "/images/photo1.jpg" },
-      { text: "and this?", image: "/images/photo2.jpg" },
-      { text: "okay this one was embarrassing", image: "/images/photo3.jpg" },
-      { text: "I still can't believe we did this.", image: "/images/photo4.jpg" },
-      { text: "time really flies...", image: "/images/photo5.jpg" }
+      { text: "Farewell Stage Fiasco", image: "/images/photo1.jpeg" },
+      { text: "Pink Saree Protocol", image: "/images/photo2.jpeg" },
+      { text: "OG Duo Origin Story", image: "/images/photo3.jpeg" },
+      { text: "Sibling Hostage Situation", image: "/images/photo4.jpeg" },
+      { text: "The Full House Final Boss", image: "/images/photo5.jpeg" },
+      { text: "Night Out Selfie Supreme", image: "/images/photo6.jpeg" },
+      { text: "Cycle Path Aesthetic", image: "/images/photo7.jpeg" },
+      { text: "Temple Run But Make It Fashion", image: "/images/photo8.jpeg" }
     ],
-    silencePhoto: "/images/photo4.jpg",
-    silenceCaption: "Some memories stay forever."
+    silencePhoto: "/images/photo7.jpeg",
+    silenceCaption: "She borrowed a cycle to get a Pinterest-y photo with the pink flowers."
   },
 
   // ---------------------------------------------------------------------------
   // 7. STEP 6: "AND THERE'S SOMETHING ELSE..." (THE GAME / QUESTION)
   // ---------------------------------------------------------------------------
   somethingElse: {
-    header: "And there's something else...",
+    header: "And there's something else... FUN QUESTION",
     question: "LET'S SETTLE SOMETHING ONCE AND FOR ALL.",
-    subQuestion: "Who is actually Mom's favorite child?",
+    subQuestion: "When you say you need 5 min to get ready, how much time you actually take?",
     options: [
       {
         label: "A",
-        text: "Me (Keertana), obviously!",
+        text: "5min! Obviously!",
         verdict: "Delusional. We both know the truth, but nice try."
       },
       {
         label: "B",
-        text: "You (Your brother), unfortunately...",
+        text: "20-30min",
         verdict: "Correct recognition of reality! Logged into public record."
       },
       {
         label: "C",
-        text: "Whoever cleaned their room last",
+        text: "1 hour",
         verdict: "Conditional truth detected. Accurate assessment."
       }
     ],

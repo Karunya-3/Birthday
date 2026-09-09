@@ -81,6 +81,7 @@ export default function FirstOfAll({ onContinue }) {
                 <img
                   src={habit.photo}
                   alt={habit.title}
+                  style={{ objectPosition: habit.objectPosition || 'center' }}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -141,6 +142,7 @@ export default function FirstOfAll({ onContinue }) {
                 <img
                   src={selectedHabit.photo}
                   alt={selectedHabit.title}
+                  style={{ objectPosition: selectedHabit.objectPosition || 'center' }}
                   className="w-full h-full object-cover"
                 />
               </div>

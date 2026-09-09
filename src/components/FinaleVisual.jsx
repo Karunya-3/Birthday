@@ -102,11 +102,15 @@ export default function FinaleVisual({ onReplay }) {
                 <img
                   src={item.url}
                   alt={item.title}
+                  style={{ objectPosition: item.objectPosition || 'center 35%' }}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 text-left">
-                  <span className="font-mono-tech text-[10px] text-[#FAF6F0] line-clamp-1">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-2 text-left">
+                  <span className="font-mono-tech text-[11px] text-[#E9C46A] font-bold line-clamp-1">
                     {item.title}
+                  </span>
+                  <span className="font-handwriting text-[10px] text-white line-clamp-1">
+                    "{item.situation}"
                   </span>
                 </div>
               </motion.div>
@@ -210,6 +214,7 @@ export default function FinaleVisual({ onReplay }) {
                       <img
                         src={item.url}
                         alt={item.title}
+                        style={{ objectPosition: item.objectPosition || 'center 35%' }}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       <span className="absolute top-3 left-3 bg-[#0A0A0C]/80 backdrop-blur-md px-2.5 py-1 rounded text-[10px] font-mono-tech text-[#E9C46A] border border-editorial">
